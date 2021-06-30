@@ -18,6 +18,11 @@ function greet (name, owner) {
 }
 
 
+//Улечшения
+
+const greet = (name, owner) => `Hello ${(name === owner ? 'boss' : 'guest')}`
+
+
 // Sample Tests:
 // 1
 // describe("Tests", () => {
