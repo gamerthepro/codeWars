@@ -11,6 +11,14 @@ function solution(str){
 	return s;
 }
 
+function solution(str){
+	let s = '';
+	for  (let i = 0; i < str.length; i++) {
+		s = str[i] + s;
+	}
+	return s;
+}
+
 
 // Sample Tests:
 // 1
