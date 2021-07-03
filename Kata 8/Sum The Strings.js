@@ -17,6 +17,8 @@
 const sumStr = (a,b) => (+a + +b).toString();
 
 
+const sumStr = (a,b) => String(+a + +b);
+
 // Sample Tests:
 
 // describe("Tests", () => {
