@@ -10,7 +10,7 @@
 // Waiting for translations and Feedback! Thanks!
 
 
-const paperwork = (n, m) => (n < 0 || m < 0 ? 0 : n * m);
+const paperwork = (n, m) => n < 0 || m < 0 ? 0 : n * m;
 
 
 // Sample Tests:
