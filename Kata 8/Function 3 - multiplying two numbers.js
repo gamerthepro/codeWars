@@ -1,4 +1,4 @@
-Function 3 - multiplying two numbers
+// Function 3 - multiplying two numbers
 
 // Instructions
 
