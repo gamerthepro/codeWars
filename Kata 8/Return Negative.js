@@ -11,7 +11,10 @@
 // makeNegative(0.12); // return -0.12
 
 
-const makeNegative = num => num <= 0 ? +num : -num
+const makeNegative = num => num <= 0 ? +num : -num;
+
+const makeNegative = num => -Math.abs(num);
+
 
 
 // Sample Tests
