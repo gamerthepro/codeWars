@@ -11,6 +11,14 @@
 
 const findMultiples = (integer, limit) => Array.from({length: parseInt(limit / integer)}, (_,index) => (index + 1) * integer)
 
+function findMultiples(int,limit){
+	let result = []
+	
+	for (let i = int; i<=limit ; i+=int)
+		result.push(i)
+
+	return result
+}
 
 // Sample Tests
 
